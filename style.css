@@ -1,0 +1,126 @@
+.text
+{
+    text-align: center;
+    background-image: url("BG.png");
+}
+.text1
+{
+    margin-left: 30px;
+    padding: 17px;
+
+}
+.text2
+{
+    margin-top: 80px;
+    text-align: center;
+}
+.S
+{
+    
+    background-color: hsl(201, 11%, 66%);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#logos
+{
+    display: flex;
+}
+li
+{
+    list-style-type: none;
+}
+button[type=button]
+{
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    padding: 13px;
+    border-radius: 20px;
+}
+button[type=menu]
+{
+    background-color: hsl(201, 100%, 66%);
+    border: none;
+    padding: 13px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+.flexcontainer
+{
+    display: flex;
+}
+.flexcontain
+{
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+.flexcontains
+{
+    justify-content: space-evenly;
+    text-align: center;
+    size: 20px;
+}
+img
+{
+    padding: 15px 30px;
+}
+.img
+{
+    width: 50px;
+    height: 100px;
+}
+.flex
+{
+    text-align: center;
+}
+.Texting
+{
+    margin-top: 8px;
+}
+@media screen and (max-device-width: 480px) {
+    .flexcontain{
+        flex-direction: column;
+        width: 100%;  
+        margin: 0 auto;
+}
+.flexcontainer
+{
+    flex-direction: column;
+    max-width: 100%;
+}
+.text
+{
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;    
+}
+.S
+{
+    flex-direction: column;
+    margin: 10px auto;
+    text-align: center;
+}
+img
+{
+    width: auto;
+    height: auto;
+}
+button[type=button], button[type=menu]
+{
+    width: 75%;
+    box-sizing: border-box;
+    margin: 10px
+}
+.image
+{
+    width: 75%;
+}
+#logos
+{
+    margin-left: 36%;
+}
+}
